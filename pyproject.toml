@@ -6,9 +6,11 @@ authors = ["santhosh thangavel <santhoshk.thangavel@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.9"
+requests = "^2.26.0"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
+black = "^21.11b1"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
